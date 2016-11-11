@@ -48,7 +48,24 @@ int main()
 
     cout << s.top();*/
 
+    vector <int> a,b;
+    a.push_back(1);
+    a.push_back(1);
+    a.push_back(1);
+    a.push_back(5);
+    a.push_back(5);
+    a.push_back(4);
 
+    b.push_back(2);
+    b.push_back(3);
+    b.push_back(4);
+    b.push_back(4);
+    b.push_back(2);
+    b.push_back(2);
+
+    Grafo graf(a,b);
+
+    cout << graf.Salidas(1);
 
     return 0;
 }

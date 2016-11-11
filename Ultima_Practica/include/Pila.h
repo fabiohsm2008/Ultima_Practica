@@ -23,20 +23,21 @@ public:
     void pop(){
         _pilas.pop_back();
     }
-
 };
 
 template <typename T>
 
 Pila<T> operator +(Pila <T> p1, Pila<T> p2){
-    Pila < T > a;
-    while(! p2.vacio() ){
-        a.insertar(p2.top());
-        p2.pop();
+    Pila < T > a, temp1, temp2;
+    temp1 = p1;
+    temp2 = p2;
+    while(! temp2.vacio() ){
+        a.insertar(temp2.top());
+        temp2.pop();
     }
-    while(! p1.vacio() ){
-        a.insertar(p1.top());
-        p1.pop();
+    while(! temp1.vacio() ){
+        a.insertar(temp1.top());
+        temp1.pop();
     }
     return a;
 }

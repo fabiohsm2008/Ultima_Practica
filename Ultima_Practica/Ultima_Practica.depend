@@ -47,13 +47,13 @@
 	<iostream>
 	"Punto.h"
 
-1478877376 source:f:\ultima_practica\main.cpp
+1478888504 source:f:\ultima_practica\main.cpp
 	<iostream>
 	"Poligono.h"
 	"Pila.h"
 	"Grafo.h"
 
-1478838726 f:\ultima_practica\include\pila.h
+1478888782 f:\ultima_practica\include\pila.h
 	<vector>
 	<iostream>
 
@@ -64,6 +64,6 @@
 	<map>
 	<vector>
 
-1478877492 source:f:\ultima_practica\src\grafo.cpp
+1478888376 source:f:\ultima_practica\src\grafo.cpp
 	"Grafo.h"
 

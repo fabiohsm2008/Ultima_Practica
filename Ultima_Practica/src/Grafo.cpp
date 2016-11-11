@@ -10,7 +10,7 @@ Grafo :: Grafo(vector<int> &inicio, vector<int> &fin)
 
 int Grafo :: Salidas(const int ID_nodo) const
 {
-        return adyacencia(ID_nodo).size();
+    return adyacencia(ID_nodo).size();
 }
 
 const vector <int> Grafo :: adyacencia(const int ID_nodo) const
