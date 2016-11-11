@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1478788802 source:e:\ultima_practica\main.cpp
+	<iostream>
+	"Poligono.h"
+
+1478788528 source:e:\ultima_practica\src\arreglo.cpp
+	<iostream>
+	"Arreglo.h"
+	<math.h>
+
+1478790326 e:\ultima_practica\include\arreglo.h
+	"Punto.h"
+
+1478788530 e:\ultima_practica\include\punto.h
+
+1478788550 source:e:\ultima_practica\src\poligono.cpp
+	"Poligono.h"
+	"Punto.h"
+	<math.h>
+
+1478790442 e:\ultima_practica\include\poligono.h
+	"Arreglo.h"
+
+1478788560 source:e:\ultima_practica\src\punto.cpp
+	<iostream>
+	"Punto.h"
+
+1478788528 source:f:\ultima_practica\src\arreglo.cpp
+	<iostream>
+	"Arreglo.h"
+	<math.h>
+
+1478790326 f:\ultima_practica\include\arreglo.h
+	"Punto.h"
+
+1478788530 f:\ultima_practica\include\punto.h
+
+1478833078 source:f:\ultima_practica\src\poligono.cpp
+	"Poligono.h"
+	"Punto.h"
+	<math.h>
+
+1478833078 f:\ultima_practica\include\poligono.h
+	"Arreglo.h"
+
+1478788560 source:f:\ultima_practica\src\punto.cpp
+	<iostream>
+	"Punto.h"
+
+1478838414 source:f:\ultima_practica\main.cpp
+	<iostream>
+	"Poligono.h"
+	"Pila.h"
+
+1478838726 f:\ultima_practica\include\pila.h
+	<vector>
+	<iostream>
+
+1478837336 source:f:\ultima_practica\src\pila.cpp
+
