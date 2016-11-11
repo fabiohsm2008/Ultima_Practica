@@ -35,11 +35,13 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Arreglo.h" />
+		<Unit filename="include/Grafo.h" />
 		<Unit filename="include/Pila.h" />
 		<Unit filename="include/Poligono.h" />
 		<Unit filename="include/Punto.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Arreglo.cpp" />
+		<Unit filename="src/Grafo.cpp" />
 		<Unit filename="src/Pila.cpp" />
 		<Unit filename="src/Poligono.cpp" />
 		<Unit filename="src/Punto.cpp" />

@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Poligono.h"
 #include "Pila.h"
+#include "Grafo.h"
 
 using namespace std;
 
@@ -21,6 +22,7 @@ int main()
     rec = new Rectangulo;
     Triangulo *tri;
     tri = dynamic_cast <Triangulo*>(rec);
+    tri = static_cast <Triangulo*>(rec);
     cout << tri -> Lados();*/
 
     /*Pila <double> p;
@@ -34,7 +36,8 @@ int main()
         cout << p.top() << " ";
         p.pop();
     }*/
-    Pila <int> p,q,s;
+
+    /*Pila <int> p,q,s;
     p.insertar(1);
     p.insertar(2);
 
@@ -43,7 +46,9 @@ int main()
 
     s = p + q;
 
-    cout << s.top();
+    cout << s.top();*/
+
+
 
     return 0;
 }
